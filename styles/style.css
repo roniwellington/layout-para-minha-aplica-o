@@ -458,6 +458,11 @@ footer {
         text-align: center;
     }
 
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .cabecalho__busca {
         width: 100%;
     }
@@ -490,9 +495,21 @@ footer {
         font-size: 20px;
     }
 
-    .tags__lista {
+    .tags {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
+    }
+
+    .tags__titulo {
+        margin-bottom: 10px;
+    }
+
+    .tags__lista {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        justify-items: start;
+        width: 100%;
     }
 
     .tags__tag {
@@ -519,5 +536,14 @@ footer {
         position: absolute;
         top: 10px;
         left: 10px;
+    }
+
+    .rodape {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape__icones{
+        margin-bottom: 15px;
     }
 }
