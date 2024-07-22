@@ -403,6 +403,14 @@ footer {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.tags-login {
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    color: #747474;
+    font-size: 1.3rem;
+}
+
 
 @media (max-width: 1024px) {
     .principal {
@@ -555,5 +563,25 @@ footer {
 
     .rodape__icones{
         margin-bottom: 15px;
+    }
+
+    .imagem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .imagem__conteudo {
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px 20px 0 0;
+        width: 100%;
+    }
+    
+    .imagem__imagem {
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     }
 }
