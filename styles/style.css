@@ -498,4 +498,8 @@ footer {
         width: auto;
         margin-bottom: 10px;
     }
+
+    .conteudoImagem {
+        width: 100%;
+    }
 }
